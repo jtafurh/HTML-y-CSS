@@ -1,0 +1,7 @@
+/*Combinadores hermanos*/
+
+h2 + p {
+    color: red;
+}
+/*Aplicale el color rojo a todas la etiquetas <p> que este 
+cerca de una etiqueta <h2>*/

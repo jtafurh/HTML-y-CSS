@@ -1,0 +1,48 @@
+/*Resetear los estilos que nos da el navegador*/
+*{
+    box-sizing: border-box;
+    /*quitamos el margin y el pading*/
+    margin: 0px;
+    padding: 0px;
+}
+/*utilizaremos unidades rem*/
+html {
+    font-size: 65.5%;
+}
+body{
+    font-size: 1.6rem; /*Es igual al 16px*/
+}
+
+.container{
+    border: .3rem solid black;
+    /*Inicialmente si no colocamos ningun display el que se colocara por defecto es el "display:block" donde cada contenedores hijos se ubicaran uno debajo de otro*/
+    display: flex;
+    /*"display: flex" hace que los contenedores hijos se ubiquen uno a continuacion de otro*/
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
+}
+.box1{
+    background-color: rgb(245, 128, 128);
+}
+.box2{
+    background-color: rgb(255, 139, 255);
+}
+.box3{
+    background-color: rgb(140, 140, 255);
+}
+.box4{
+    background-color: rgb(131, 216, 131);
+}
+.box5{
+    background-color: rgb(248, 248, 121);
+}
+.box6{
+    background-color: rgb(255, 193, 79);
+}
+
+

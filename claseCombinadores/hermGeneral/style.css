@@ -1,0 +1,6 @@
+/*Hermano general*/
+h2 ~ p {
+    color: red;
+}
+/*Modifica todas las etiquetas hermano que le siguen a <h2>, 
+hermano quiere decir que comparten el mismo padre*/

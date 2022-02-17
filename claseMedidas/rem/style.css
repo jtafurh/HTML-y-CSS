@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%; /*esto hace que un rem sea siempre 10px*/
+}
+h1 {
+    font-size: 1.6rem;
+}
+p {
+    font-size: 1.6rem;
+}
+/*1rem significa 16px*/
+main div {
+    font-size: 1.6rem;
+}

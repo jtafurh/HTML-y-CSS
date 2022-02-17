@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100vw; /* El vw al final indica que debe ocupar todo el ancho de la ventana*/
+    height: 100vh;
+    background-color: purple;
+}
+
+section {
+    width: 80%;  /*utiliza el 80% de la pantalla*/
+    min-width: 320px; /*utiliza el 80% de pantalla hasta un minimo de 320px*/
+    max-width: 500px; /*utiliza el 80% de pantalla hasta un maximo de 500px*/
+    min-height: 500px; /*asigna una altura de 500 px pero si el contenido es mas grande ajusta la altura al contenido*/
+    margin: 0 auto;
+    background-color: red;
+}

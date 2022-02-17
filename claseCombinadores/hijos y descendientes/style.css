@@ -1,0 +1,13 @@
+/*hijo directo (>)*/
+div > p {
+    color: red;
+}
+/*Aplica el color rojo a las etiquetas <p> que son hijos DIRECTOS
+de la etiqueta <div>*/
+
+/*desendiente*/
+div h3 {
+    color: blue;
+}
+/*Aplica el color azul a las etiquetas <h3> que son descendientes
+de la etiqueta <div>, no necesariamente son hijos directos*/
